@@ -1,0 +1,17 @@
+{
+  "parserOptions": {
+      "ecmaVersion": 9,
+      "sourceType": "module"
+  },
+  "extends": ["eslint:recommended", "eslint-config-prettier"],
+  "rules": {
+      "no-console": "off"
+  },
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "globals": {
+    "require": true
+  }
+}
